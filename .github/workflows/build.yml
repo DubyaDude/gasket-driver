@@ -12,7 +12,7 @@ jobs:
 
         steps: 
             - name: Install Build Tools
-              run: sudo apt install git devscripts dkms debhelper sha256sum
+              run: sudo apt install git devscripts dkms debhelper coreutils
             - name: Checkout Repository
               uses: actions/checkout@v4
               with:
