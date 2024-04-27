@@ -1,3 +1,16 @@
+# Coral Gasket Driver Build
+This repository is meant to distribute an updated build of the Coral Gasket Driver as the package has not been updated for some time, making it difficult to install on newer versions.
+
+## How to install
+- Purge any previous versions of `gasket-dkms` you may have installed.
+- Go to releases and download the latest release.
+  - Inside the zip, you will need the `gasket-dkms_X_all.deb` where `X` is the version number.
+
+- Run either of the following to install the package:
+  - `dpkg -i ./gasket-dkms_X_all.deb`
+  - `apt install ./gasket-dkms_X_all.deb`
+
+
 # Coral Gasket Driver
 
 The Coral Gasket Driver allows usage of the [Coral EdgeTPU](https://coral.ai/) on Linux systems. The driver contains two modules:
